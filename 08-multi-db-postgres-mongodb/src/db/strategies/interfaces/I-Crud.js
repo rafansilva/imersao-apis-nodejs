@@ -9,6 +9,10 @@ export class ICrud {
     throw new NotImplementedException();
   }
 
+  connect() {
+    throw new NotImplementedException();
+  }
+
   create(item) {
     throw new NotImplementedException();
   }

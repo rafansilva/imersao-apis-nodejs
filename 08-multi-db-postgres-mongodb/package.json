@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^28.0.0",
+    "mongoose": "^6.3.2",
     "pg": "^8.7.3",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.19.0"
