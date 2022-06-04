@@ -1,0 +1,36 @@
+{
+  "name": "06-multi-db",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "clear && npx jest",
+    "test:watch": "clear && npx jest --watch --detectOpenHandles",
+    "start": "clear && node ./src/api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "boom": "^7.3.0",
+    "hapi": "^17.7.0",
+    "hapi-auth-jwt2": "^8.1.0",
+    "hapi-swagger": "^9.1.3",
+    "inert": "^5.1.3",
+    "jest": "^28.0.0",
+    "joi": "^14.1.0",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.11",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.38.0",
+    "vision": "^5.4.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^28.0.0"
+  }
+}
